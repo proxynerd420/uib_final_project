@@ -1,0 +1,40 @@
+#sheo {
+    padding: 6.25rem 0;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5rem;
+    flex-wrap: wrap-reverse;
+}
+
+.sheo-container {
+    width: 45rem;
+    max-width: 90%;
+}
+
+.sheo-container h2 {
+    font-size: 4rem;
+}
+
+.sheo-container p {
+    text-align: justify;
+    line-height: 175%;
+}
+
+#sheo img {
+    width: 30rem;
+    border: 1rem solid var(--text-color);
+    max-width: calc(90% - 1.875rem);
+}
+
+@media (max-width: 768px) {
+    #sheo {
+        padding: 3.125rem 0;
+    }
+
+    #sheo h2 {
+        text-align: center;
+        font-size: 12vw;
+    }
+}
